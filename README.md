@@ -88,7 +88,7 @@ We’ll be collecting launch data from SpaceX API, First we request launch data 
 
 With the help of some helper functions, we save the responses into a dictionary, and then we transform it into a dataframe, which is our data set.
 
- <img src= "[https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/12f1752d5225cce47a4299f8861918027637ec00/Images/fluxo.png)" width="1000" height="500">
+ <img src= "https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/269bd7d192af30309dda882254a8e4050e8c9d19/Images/fluxo.png" width="1000" height="500">
  
 ### To see the code and step by step process of Data Collection using SpaceX API [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%201/Data%20Collection/jupyter-labs-spacex-data-collection-api.ipynb)
 
@@ -161,7 +161,7 @@ In order to understand the relations between different features, we visualize th
 
 6. Orbit type against the Pay load mass.
 
-7. launch success yearly trend.
+7. Launch success yearly trend.
 
 ### To see the code and step by step process of EDA with Data Visualization [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%202/Exploratory%20Analysis%20Using%20Pandas%20and%20Matplotlib/jupyter-labs-eda-dataviz.ipynb)
 
@@ -178,6 +178,23 @@ First we create Folium map object, with an initial center location around Nasa J
 we need to explore and analyze the proximities of launch sites, we calculate the distance between the launch site and its proximities and then we draw a polyline between them.
 
 ### To see the code and step by step process of Build an Interactive Map with Folium [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%203/Interactive%20Visual%20Analytics%20and%20Dashboard/lab_jupyter_launch_site_location.ipynb)
+
+# Build A Dashboard with Plotly Dash
+
+* Plots/Graphs
+1. Payload Mass Distribution: Histogram showing payload mass distribution across launches.
+2. Launch Success Rates: Bar plot illustrating success rates by launch site.
+3. Launch Trends Over Time: Line plot displaying the number of launches per year.
+
+* Interactions
+1. Year Filter: Allows users to filter data by specific years.
+2. Hover Tooltips: Provides additional information on data points.
+3. Zoom and Pan: Enables detailed views of specific plot areas.
+4. To See the code for making the Dashboard using Plotly Dash CLICK HERE
+
+
+### To See the code for making the Dashboard using Plotly Dash [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%204/SpaceX_plotly.py) 
+
 
 ## Predictive Analysis (Classification)
 
@@ -199,11 +216,12 @@ We build a grid search object for each of the algorithms and f i t it to find th
 
 ## Results
 
-Success rate increased noticeably from 2013 and on.
+* Payload Mass Distribution: Normal distribution with some outliers.
+* Launch Success Rate: Over 80% success rate, varying by site.
+* Temporal Trends: Increasing number of launches over the years.
+* Weather Conditions Impact: Adverse weather conditions correlate with launch failures.
+* Rocket Specifications: Varying success rates among different rocket models.
 
-Launch site and the orbit type are the features with the largest effect on the outcome.
-
-KNN and SVM models have a validation set accuracy of 83% and an out of sample accuracy of 77%.
 
 # Insights Drawn from Exploratory Data Analysis
 
@@ -370,10 +388,6 @@ A green marker represents a successful landing outcome, while a red one represen
 The blue line represents the distance between the lunch site and the closest coastline.
 
 ![Screenshot (194)](https://user-images.githubusercontent.com/86102231/147829825-349daf2a-e65c-4cfd-b3c1-e4afaf356399.png)
-
-# Build A Dashboard with Plotly Dash
-
-### To See the code for making the Dashboard using Plotly Dash [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%204/SpaceX_plotly.py) 
 
 ## Launch Success Dashboard for All Sites
 
