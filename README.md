@@ -231,9 +231,9 @@ Scatter plot of Flight Number vs. Launch Site
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/launch%20Site_vs_Flight%20Number.png)
 
-Flight with number range 0 to 20 and range 40 to 90 are more on site CCAPS SLC 40.
+It is possible to identify that the greater the number of flights, the more successful flights occur, unlike the first flights that have more failures.
 
-Flight with number range 21 to 39 is more on site KSC LC 39A.
+The launch site with the most launches is CCAFS SLC 40.
 
 ## Payload vs. Launch Site
 
@@ -241,9 +241,9 @@ Scatter plot of Payload vs. Launch Site
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/payload%20Mass_vs_LaunchSite.png)
 
-More data spread on payloas mass range 0 to 8000 kg.
+We observe that from a payload of 8,000 we see that there is a greater chance of a successful launch. 
 
-When the payload is in the range of 15000, it looks more likely to land successfully.
+Between 1,000 and 7,000 is the greatest amount of information.
 
 ## Success Rate vs. Orbit Type
 
@@ -251,9 +251,7 @@ Show a bar chart for the success rate of each orbit type
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/success_Rate_vs_Orbit_Type.png)
 
-O rbit type ES L1, GEO, HEO, and SSO have the highest success rate, which is 1, that means it always succeeds.
-
-Orbit type GTO have the lowest success rate, which is 0.5.
+The ES-L1, GEO, HEO and SSO orbits have the highest success rates while GTO has the lowest success rate.
 
 ## Flight Number vs. Orbit Type
 
@@ -261,7 +259,7 @@ Show a scatter point of Flight number vs. Orbit type
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/flight%20Number_vs_Orbit.png)
 
-Orbit type LEO, ISS, PO, and GTO have more data spread on flight number range 0 to 60 .
+The number of flights on the ISS, GTO are constant while the flights on the VLEO have been happening in the last records.
 
 ## Payload vs. Orbit Type
 
@@ -269,9 +267,7 @@ Show a scatter point of payload vs. orbit type
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/payload%20Mass_vs_Orbit.png)
 
-Orbit type VLEO that has high success rate also has heavy payload.
-
-There is a possibility that the heavier the payload, the higher the probability of success.
+VLEO has the flights with the largest payloads, There is a possibility that the heavier the payload, the higher the probability of success.
 
 ## Launch Success Yearly Trend
 
@@ -279,95 +275,67 @@ Show a line chart of yearly average success rate
 
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/success%20Rate%20Over%20the%20Years.png)
 
-2019 is the year that has the highest success rate.
-
-2010, 2012, and 2014 are the year that have lowest success rate.
+You can observe that the success rate since 2013 kept increasing till 2017 (stable in 2014) and after 2015 it started increasing.
 
 ## All Launch Site Names
 
-N ames of the unique launch sites
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/exclusive.png)
 
-There is 4 unique launch site.
-
-That’s mean there is 4 kind of launch site too.
+These are the names of unique release locations, obtained from the sql databases.
 
 ## Launch Site Names Begin with 'CCA'
 
-5 records where launch sites with 'CCA'
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/cca.png)
 
-There is 5 launch site begin with CCA which mission outcome all success.
-
-There is 4 launch site that sponsored by NASA.
+5 records where launch sites begin with the string 'CCA’.
 
 ## Total Payload Mass
 
-Calculate the total payload carried by boosters from NASA
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/total_payload.png)
 
-The total payload carried by booster from NASA is 45.596 kg.
+The total payload mass carried by boosters launched by NASA (CRS)
 
 ## Average Payload Mass by F9 v1.1
 
-Calculate the average payload mass carried by booster version F9 v1.1
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/f9.png)
 
-The average payload mass shown is 2.928 kg for 90 payload mass withtotal payload is 45.596 kg.
+Average payload mass carried by booster version F9 v1.1
 
 ## First Successful Ground Landing Date
 
-Find the dates of the first successful landing outcome on ground pad
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/solo.png)
 
-T he first successful landing outcome on ground ad at 2015 12 22 .
+Date when the first successful landing outcome in ground pad was achieved.
 
 ## Successful Drone Ship Landing with Payload between 4000 and 6000
 
-List the names of boosters which have successfully landed on drone ship and had payload mass greater than 4000 but less than 6000
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/booster_Version.png)
 
-There is 4 booster version that successfully landed on drone ship and had payload range 4000 to 6000.
+The names of the boosters which have success in drone ship and have payload mass greater than 4000 but less than 6000.
 
 ## Total Number of Successful and Failure Mission Outcomes
 
-Calculate the total number of successful and failure mission outcomes
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/booster.png)
 
-The total of successful mission outcome is 100 and failure in flight is 1.
+The total number of successful and failure mission outcomes.
 
 ## Boosters Carried Maximum Payload
 
-List the names of the booster which have carried the maximum payload mass
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/lading.png)
 
-There is 12 booster version type that carried maximum payload mass.
+The names of the booster versions which have carried the maximum payload mass.
 
 ## 2015 Launch Records
 
-List the failed landing_outcomes in drone ship, their booster versions, and launch site names for in year 2015
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/2015.png)
 
-The failed landing outcomes in drone ship is always happen in CCAFS LC 40 launch site.
-
-There are 2 type of booster that used when failed landing outcomes in drone ship.
+The records which will display the month names, failure landing outcomes in drone ship ,booster versions, launch site for the months in year 2015.
 
 ## Rank Landing Outcomes Between 2010-06-04 and 2017-03-20
 
-Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010 06 04 and 2017 03 20, in descending order
-
 ![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/lading.png)
 
-There are 9 landing outcomes that success ground pad and 5 landing outcomes that failure drone ship.
+Count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010-06-04 and 2017-03-20, in descending order.
 
 # Launch Sites Proximities Analysis
 
@@ -379,34 +347,31 @@ The markers on this maps show the launch site locations on the map.
 
 ## Mark the success/failed launches for each site on the map
 
-A green marker represents a successful landing outcome, while a red one represents failure.
+The green marker means a successful landing and the red one is an unsuccessful landing.
 
 ![Screenshot (193)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/02map.png)
 
 ## Distances between a launch site to its proximities
 
-The blue line represents the distance between the lunch site and the closest coastline.
+Distance from the launch site to the nearest highways, railways, coastline and city.
 
 ![Screenshot (194)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/03map.png)
 
 ## Launch Success Dashboard for All Sites
 
-Showing the screenshot of launch success count for all sites, in a Piechart.
+Count of successful launches for all sites in a pie chart.
 
 ![Screenshot (199)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/all.png)
 
-Showing the screenshot of option
+## Launch site with the highest success rate
 
-![Screenshot (200)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/all02.png)
+KSC LC-39A has the highest launch success rate.
 
-## Piechart for The Highest Launch Success Site
+![Screenshot (201)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/all02.png)
 
-Showing the screenshot of the piechart for the launch site with highest launch success ratio.
+## Scatter plot with different loads
 
 ![Screenshot (201)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/carga.png)
-
-The highest total launches is KSC LC-39A site with 41.7%.
-
 
 # Predictive Analysis (Classification)
 
@@ -414,17 +379,32 @@ The highest total launches is KSC LC-39A site with 41.7%.
 
 ![Screenshot (201)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/34d69e19f42a3ce01c299b65071abdeae81627e9/Images/modelbarras.png)
 
-## Confusion Matrix
+Accuracy of the models created.
 
-These two graphs represent the confusion matrix for both the SVM and KNNmodels.
+All demonstrated the same accuracy.
+
+## Confusion Matrix
 
 ![Screenshot (202)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/34d69e19f42a3ce01c299b65071abdeae81627e9/Images/confuso.png)
 
-These confusion matrices show the largest true positive and true negative values, as well as the least false positive and false negative values.
+All models performed equally well and formed the same confusion matrix.
 
 # Conclusion
 
-Not all the data is important, the collected data may contain irrelevant columns and it is normal to drop them.
-Visualizing data is a good way of determining what features have the strongest effect.
-SQL queries provide wider scope to explore datasets in comparison with traditional EDA.
-SVM and KNN models are the most reliable since they have the highest out of sample accuracy and f1-score.
+* Our analysis of SpaceX rocket launches brought several interesting insights. Here are some of the main conclusions:
+
+* Payload Mass Distribution:
+
+The distribution of payload mass followed a normal distribution with some outliers, suggesting that most launches fall within a specific range of masses.
+
+* Launch Success Rate:
+
+The success rate of the launches was over 80%, but it varied depending on the launch site. This indicates that some locations may have better conditions or infrastructure for successful launches.
+
+* Temporal Trends:
+
+We observed an increase in the number of launches over the years, reflecting the growing activity and demand for space launches.
+
+* Machine Learning Models:
+
+We used Logistic Regression and Support Vector Machines (SVM) to predict the success of the launches. Both models showed similar accuracy, around 83%, on the test set, indicating that they are effective for this type of prediction.
