@@ -1,6 +1,6 @@
 # Winning-Space-Race-with-Data-Science
 
- <img src="https://user-images.githubusercontent.com/86102231/147546030-15970711-052f-43f9-a398-00ee8cdbac40.gif" width="800" height="500">
+ <img src="https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/506294cf93cc570783dff8fb37c2b0e607285cc6/Images/space.gif" width="800" height="500">
 
 ## Author : [William Sousa](https://github.com/williamsousab) 
 
