@@ -331,7 +331,7 @@ T he first successful landing outcome on ground ad at 2015 12 22 .
 
 List the names of boosters which have successfully landed on drone ship and had payload mass greater than 4000 but less than 6000
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828733-fd4a280c-cfde-48c6-8dac-f81d847966d7.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/booster_Version.png)
 
 There is 4 booster version that successfully landed on drone ship and had payload range 4000 to 6000.
 
@@ -339,7 +339,7 @@ There is 4 booster version that successfully landed on drone ship and had payloa
 
 Calculate the total number of successful and failure mission outcomes
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828804-5bf8c641-c1c9-4223-865d-7e44b87dd878.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/booster.png)
 
 The total of successful mission outcome is 100 and failure in flight is 1.
 
@@ -347,7 +347,7 @@ The total of successful mission outcome is 100 and failure in flight is 1.
 
 List the names of the booster which have carried the maximum payload mass
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828862-54033de7-3fc1-4100-92e5-9915638e929f.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/938e4eeacba2283e57b70496bc0052e81306f105/Images/lading.png)
 
 There is 12 booster version type that carried maximum payload mass.
 
