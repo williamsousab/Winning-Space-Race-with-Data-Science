@@ -355,7 +355,7 @@ There is 12 booster version type that carried maximum payload mass.
 
 List the failed landing_outcomes in drone ship, their booster versions, and launch site names for in year 2015
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828896-060b86df-093c-4871-bd59-238582a946d9.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/2015.png)
 
 The failed landing outcomes in drone ship is always happen in CCAFS LC 40 launch site.
 
@@ -365,7 +365,7 @@ There are 2 type of booster that used when failed landing outcomes in drone ship
 
 Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010 06 04 and 2017 03 20, in descending order
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828931-f33f5e08-4f57-489d-b501-d932055e2568.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/lading.png)
 
 There are 9 landing outcomes that success ground pad and 5 landing outcomes that failure drone ship.
 
@@ -375,55 +375,38 @@ There are 9 landing outcomes that success ground pad and 5 landing outcomes that
 
 The markers on this maps show the launch site locations on the map.
 
-![Screenshot (192)](https://user-images.githubusercontent.com/86102231/147829818-e184c01c-959d-4214-9cea-af5c476f6bc5.png)
+![Screenshot (192)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/01map.png)
 
 ## Mark the success/failed launches for each site on the map
 
 A green marker represents a successful landing outcome, while a red one represents failure.
 
-![Screenshot (193)](https://user-images.githubusercontent.com/86102231/147829822-4ee6b005-44f1-49ad-bbc9-561c76ce8f20.png)
+![Screenshot (193)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/02map.png)
 
 ## Distances between a launch site to its proximities
 
 The blue line represents the distance between the lunch site and the closest coastline.
 
-![Screenshot (194)](https://user-images.githubusercontent.com/86102231/147829825-349daf2a-e65c-4cfd-b3c1-e4afaf356399.png)
+![Screenshot (194)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/03map.png)
 
 ## Launch Success Dashboard for All Sites
 
 Showing the screenshot of launch success count for all sites, in a Piechart.
 
-![Screenshot (199)](https://user-images.githubusercontent.com/86102231/147830906-4bed284d-465b-4ec9-8ecd-68863f366dfa.png)
+![Screenshot (199)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/all.png)
 
 Showing the screenshot of option
 
-![Screenshot (200)](https://user-images.githubusercontent.com/86102231/147830910-feea489d-fe67-43de-a07b-f0a0de5978f6.png)
+![Screenshot (200)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/all02.png)
 
 ## Piechart for The Highest Launch Success Site
 
 Showing the screenshot of the piechart for the launch site with highest launch success ratio.
 
-![Screenshot (201)](https://user-images.githubusercontent.com/86102231/147830912-abd00634-0e15-4399-ac8b-2a16d976df7a.png)
+![Screenshot (201)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/a1525b07e04ffc332ef19b0d9b6c5eca80339a2c/Images/carga.png)
 
 The highest total launches is KSC LC-39A site with 41.7%.
 
-## Payload Vs Launch Outcome
-
-### For 0 kg payload
-
-![Screenshot (202)](https://user-images.githubusercontent.com/86102231/147830916-c1e33518-146a-4d00-a58a-8421937be995.png)
-
-### For 2500 kg payload
-
-![Screenshot (203)](https://user-images.githubusercontent.com/86102231/147830919-1f80a8cb-c419-45b1-b764-aebe9a066fb0.png)
-
-### For 5000 kg payload
-
-![Screenshot (204)](https://user-images.githubusercontent.com/86102231/147830921-1f11f6c6-6559-44ee-bc5b-0b2e2fb75477.png)
-
-### For 7500 kg payload
-
-![Screenshot (205)](https://user-images.githubusercontent.com/86102231/147830924-ae2cdcec-6d1d-4a9c-ab99-9450dbe48ea5.png)
 
 # Predictive Analysis (Classification)
 
