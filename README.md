@@ -7,7 +7,7 @@
 ### This Project is the Applied Data Science Capstone Project of the IBM Data Science Professional Certificate
 
 <p align='center'> 
-<img src="https://user-images.githubusercontent.com/86102231/147832455-de717f12-9b1f-4aa9-ba1a-56df633d4458.png" width= "200" height= "200"> 
+<img src="https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Images/certifi.png" width= "200" height= "200"> 
 </p>
 
 # Project Description
@@ -90,7 +90,7 @@ With the help of some helper functions, we save the responses into a dictionary,
 
  <img src= "https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/269bd7d192af30309dda882254a8e4050e8c9d19/Images/fluxo.png" width="1000" height="500">
  
-### To see the code and step by step process of Data Collection using SpaceX API [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%201/Data%20Collection/jupyter-labs-spacex-data-collection-api.ipynb)
+### To see the code and step by step process of Data Collection using SpaceX API [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/jupyter-labs-spacex-data-collection-api-v2.ipynb)
 
 ### Data Collection - Web Scrapping
 
@@ -101,7 +101,7 @@ We parse the HTML tables and fill the dictionary keys with launch records from t
 
 <img src= "https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/12f1752d5225cce47a4299f8861918027637ec00/Images/fluxo02.png" width="1000" height="500">
 
-### To see the code and step by step process of Data Collection with Web Scrapping [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%201/Data%20Collection/webscrapping.ipynb)
+### To see the code and step by step process of Data Collection with Web Scrapping [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/jupyter-labs-webscraping.ipynb)
 
 ## Data Wrangling
 
@@ -117,7 +117,7 @@ This process was done in the following order:
 
 4. To determine the label, weapply zero/one hot encoding to the “Outcome” column to classify landing to either 1(Success) of 0 (Failure)
 
-### To see the code and step by step process of Data Wrangling [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%201/Data%20Wrangling/labs-jupyter-spacex-Data%20wrangling.ipynb)
+### To see the code and step by step process of Data Wrangling [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/labs-jupyter-spacex-Data%20wrangling-v2.ipynb)
 
 ## EDA with SQL 
 
@@ -143,7 +143,7 @@ In order to better understand the datasets, we ran the following SQL queries:
 
 10. Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010-06-04 and 2017-03-20, in descending order.
 
-### To see the code and step by step process of EDA With SQL [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%202/Exploratory%20Analysis%20Using%20SQL/jupyter-labs-eda-sql-coursera.ipynb)
+### To see the code and step by step process of EDA With SQL [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/jupyter-labs-eda-sql-coursera_sqllite.ipynb)
 
 ## EDA with Data Visualization
 
@@ -163,7 +163,7 @@ In order to understand the relations between different features, we visualize th
 
 7. Launch success yearly trend.
 
-### To see the code and step by step process of EDA with Data Visualization [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%202/Exploratory%20Analysis%20Using%20Pandas%20and%20Matplotlib/jupyter-labs-eda-dataviz.ipynb)
+### To see the code and step by step process of EDA with Data Visualization [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/jupyter-labs-eda-dataviz-v2.ipynb)
 
 ## Build an Interactive Map with Folium
 
@@ -177,7 +177,7 @@ First we create Folium map object, with an initial center location around Nasa J
 
 we need to explore and analyze the proximities of launch sites, we calculate the distance between the launch site and its proximities and then we draw a polyline between them.
 
-### To see the code and step by step process of Build an Interactive Map with Folium [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%203/Interactive%20Visual%20Analytics%20and%20Dashboard/lab_jupyter_launch_site_location.ipynb)
+### To see the code and step by step process of Build an Interactive Map with Folium [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/f7adb55f7c197ba708c8e015b5227b425176ba7e/Projects/lab-jupyter-launch-site-location-v2.ipynb)
 
 # Build A Dashboard with Plotly Dash
 
@@ -190,10 +190,10 @@ we need to explore and analyze the proximities of launch sites, we calculate the
 1. Year Filter: Allows users to filter data by specific years.
 2. Hover Tooltips: Provides additional information on data points.
 3. Zoom and Pan: Enables detailed views of specific plot areas.
-4. To See the code for making the Dashboard using Plotly Dash CLICK HERE
+4. To See the code for making the Dashboard using Plotly Dash [CLICK HERE] (https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/6c5b835744b0de9c3b9bf886846f16242fca1148/Projects/Create%20an%20interactive%20dashboard%20with%20Ploty%20Dash.ipynb)
 
 
-### To See the code for making the Dashboard using Plotly Dash [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%204/SpaceX_plotly.py) 
+### To See the code for making the Dashboard using Plotly Dash [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/6c5b835744b0de9c3b9bf886846f16242fca1148/Projects/lab-jupyter-launch-site-location-v2.ipynb) 
 
 
 ## Predictive Analysis (Classification)
@@ -212,7 +212,7 @@ For the model development phase, we use the following algorithms:
 
 We build a grid search object for each of the algorithms and f i t it to find the best parameters of the model(hyper parameters tuning), then we choose the most accurate model.
 
-### To see the code and step by step process of Predictive Analysis (Classification) [CLICK HERE](https://github.com/GaurabKundu1/IBM-Data-Science-Professional-Certificate-Capstone-Project-Winning-Space-Race-With-Data-Science/blob/main/Week%204/Predictive%20Analysis%20(Classification)/SpaceX_Machine%20Learning%20Prediction_Part_5.ipynb)
+### To see the code and step by step process of Predictive Analysis (Classification) [CLICK HERE](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/6c5b835744b0de9c3b9bf886846f16242fca1148/Projects/SpaceX-Machine-Learning-Prediction-Part-5-v1.ipynb)
 
 ## Results
 
