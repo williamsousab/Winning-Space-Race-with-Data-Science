@@ -229,7 +229,7 @@ We build a grid search object for each of the algorithms and f i t it to find th
 
 Scatter plot of Flight Number vs. Launch Site
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147827883-ab56d138-5a96-45d0-b0ba-4eab13334e36.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/launch%20Site_vs_Flight%20Number.png)
 
 Flight with number range 0 to 20 and range 40 to 90 are more on site CCAPS SLC 40.
 
@@ -239,7 +239,7 @@ Flight with number range 21 to 39 is more on site KSC LC 39A.
 
 Scatter plot of Payload vs. Launch Site
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828033-ba762df8-2e09-4490-8d46-3e890bb277e9.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/payload%20Mass_vs_LaunchSite.png)
 
 More data spread on payloas mass range 0 to 8000 kg.
 
@@ -249,7 +249,7 @@ When the payload is in the range of 15000, it looks more likely to land successf
 
 Show a bar chart for the success rate of each orbit type
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828184-62cf26f3-d5fb-4138-88f9-c907e4ca34f8.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/success_Rate_vs_Orbit_Type.png)
 
 O rbit type ES L1, GEO, HEO, and SSO have the highest success rate, which is 1, that means it always succeeds.
 
@@ -259,7 +259,7 @@ Orbit type GTO have the lowest success rate, which is 0.5.
 
 Show a scatter point of Flight number vs. Orbit type
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828246-c2db80ad-bb4d-4a29-9b76-4ec873bbc27e.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/flight%20Number_vs_Orbit.png)
 
 Orbit type LEO, ISS, PO, and GTO have more data spread on flight number range 0 to 60 .
 
@@ -267,7 +267,7 @@ Orbit type LEO, ISS, PO, and GTO have more data spread on flight number range 0 
 
 Show a scatter point of payload vs. orbit type
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828392-82371725-d023-47a2-86a8-54f2a95d1f99.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/payload%20Mass_vs_Orbit.png)
 
 Orbit type VLEO that has high success rate also has heavy payload.
 
@@ -277,7 +277,7 @@ There is a possibility that the heavier the payload, the higher the probability 
 
 Show a line chart of yearly average success rate
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828424-7d048f28-dc00-4a83-8d66-cd910a1dfe44.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/success%20Rate%20Over%20the%20Years.png)
 
 2019 is the year that has the highest success rate.
 
@@ -287,7 +287,7 @@ Show a line chart of yearly average success rate
 
 N ames of the unique launch sites
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828488-a2a97304-f1a2-497f-b1e0-15eb63da4442.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/exclusive.png)
 
 There is 4 unique launch site.
 
@@ -297,7 +297,7 @@ That’s mean there is 4 kind of launch site too.
 
 5 records where launch sites with 'CCA'
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828523-6ed380cc-bc9b-4bf3-b4c5-71756a9c59b7.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/cca.png)
 
 There is 5 launch site begin with CCA which mission outcome all success.
 
@@ -307,7 +307,7 @@ There is 4 launch site that sponsored by NASA.
 
 Calculate the total payload carried by boosters from NASA
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828560-860af98b-a3f0-4869-9f8b-4241f21fec88.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/total_payload.png)
 
 The total payload carried by booster from NASA is 45.596 kg.
 
@@ -315,7 +315,7 @@ The total payload carried by booster from NASA is 45.596 kg.
 
 Calculate the average payload mass carried by booster version F9 v1.1
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828627-f9e7b159-bfa9-4e6f-a274-47ffe3e5ef33.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/f9.png)
 
 The average payload mass shown is 2.928 kg for 90 payload mass withtotal payload is 45.596 kg.
 
@@ -323,7 +323,7 @@ The average payload mass shown is 2.928 kg for 90 payload mass withtotal payload
 
 Find the dates of the first successful landing outcome on ground pad
 
-![Screenshot (189)](https://user-images.githubusercontent.com/86102231/147828696-d3341d15-a7c6-4898-b78a-36e02fa53b80.png)
+![Screenshot (189)](https://github.com/williamsousab/Winning-Space-Race-with-Data-Science/blob/16a30f3286df77df1e0b14a5c01c7daec9d3da18/Images/solo.png)
 
 T he first successful landing outcome on ground ad at 2015 12 22 .
 
